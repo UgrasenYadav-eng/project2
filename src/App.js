@@ -4,7 +4,8 @@ import Navbar from './Component/Navbar';
 import Alert from './Component/Alert';
 import Textarea from './Component/Textarea'
 import About from './Component/About'
-import Calculator from './Component/Calculator'
+import Calculator from './Component/Calculator';
+import WatchAndStopwatch from './Component/WatchAndStopwatch';
 import {
   BrowserRouter as Router,
   Routes,
@@ -49,6 +50,7 @@ function App() {
         <Route path="/home" element={<Textarea heading="Case converter" mode={mode} showAlert={showAlert} />} />
         <Route path="/" element={<Textarea heading="Case converter" mode={mode} showAlert={showAlert} />} />
         <Route exect path="/Calculator" element={<Calculator/>} />
+        <Route exect path="/WatchAndStopwatch" element={<WatchAndStopwatch/>} />
       </Routes>
     </div>
   </Router>

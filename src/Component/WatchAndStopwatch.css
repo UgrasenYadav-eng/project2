@@ -1,0 +1,43 @@
+.watch-stopwatch-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .watch, .stopwatch {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background: #ddd;
+  }
+  
+  button:active {
+    background: #ccc;
+  }
+  

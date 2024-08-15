@@ -1,0 +1,118 @@
+.calculator-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f7f7f7;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+  }
+  
+  .calculator-container.dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .display input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    background: #222;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    flex: 1;
+    padding: 20px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .button:hover {
+    background: #ddd;
+  }
+  
+  .button:active {
+    background: #ccc;
+  }
+  
+  .clear {
+    background: #ff4d4d;
+    color: #fff;
+  }
+  
+  .backspace {
+    background: #ff8000;
+    color: #fff;
+  }
+  
+  .operator {
+    background: #4d79ff;
+    color: #fff;
+  }
+  
+  .equals {
+    background: #47d147;
+    color: #fff;
+  }
+  
+  .scientific .button {
+    background: #ffd700;
+  }
+  
+  .scientific .button:hover {
+    background: #e6be00;
+  }
+  
+  .memory .button {
+    background: #ffb3b3;
+  }
+  
+  .memory .button:hover {
+    background: #ff9999;
+  }
+  
+  .mode-toggle .button {
+    background: #a3a3a3;
+  }
+  
+  .mode-toggle .button:hover {
+    background: #8c8c8c;
+  }
+  
+  .history {
+    margin-top: 20px;
+  }
+  
+  .history h3 {
+    margin-bottom: 10px;
+  }
+  
+  .history ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .history li {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
